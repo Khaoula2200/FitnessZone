@@ -10,7 +10,7 @@
               <a
                 href="#"
                 target="_blank"
-                >WedAura</a
+                >FitZone</a
               >. All Rights Reserved.
             </p>
           </div>

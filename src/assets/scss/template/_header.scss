@@ -192,9 +192,10 @@ nav {
             text-transform: uppercase;
             transition: 0.4s ease-in-out;
             &:hover {
-                color: #ffffff;
-                background: #000000;
-                border: 1px solid #000000;
+                color: #000;
+                background:   #f7c324                ;
+                border: 1px solid  #f7c324;
+                font-weight: 700;                ;
             }
         }
     }
@@ -477,34 +478,34 @@ header.header.header-flat {
         }
     }
     &.v-app-bar--is-scrolled {
-        background: #fff!important;
-        -webkit-animation: headerSlideDown .95s ease forwards;
-        animation: headerSlideDown .95s ease forwards;
-        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1)!important;
-        height: 70px!important;
-        top: 0!important;
-        &.v-toolbar:not(.tab-toolbar) .theme--dark.v-btn {
-            color: $heading-color;
-            &::after {
-                background: #000;
-            }
-        }
-        .logo-light {
-            display: none;
-        }
-        .logo-dark {
-            display: block;
-        }
-        .feather-menu {
-            color: $heading-color;
-        }
-        &.text-white .mainmenu-wrap .purchase-btn a {
-            border: 1px solid #000;
-            color: #000;
-            &:hover {
-                color: #fff;
-            }
-        }
+        // background: #fff!important;
+        // -webkit-animation: headerSlideDown .95s ease forwards;
+        // animation: headerSlideDown .95s ease forwards;
+        // box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1)!important;
+        // height: 70px!important;
+        // top: 0!important;
+        // &.v-toolbar:not(.tab-toolbar) .theme--dark.v-btn {
+        //     color: $heading-color;
+        //     &::after {
+        //         background: #000;
+        //     }
+        // }
+        // .logo-light {
+        //     display: none;
+        // }
+        // .logo-dark {
+        //     display: block;
+        // }
+        // .feather-menu {
+        //     color: $heading-color;
+        // }
+        // &.text-white .mainmenu-wrap .purchase-btn a {
+        //     border: 1px solid #000;
+        //     color: #000;
+        //     &:hover {
+        //         color: #fff;
+        //     }
+        // }
     }
     &.header-one-page-nav-two {
         &.transparent.v-toolbar:not(.tab-toolbar) .theme--dark.v-btn {
@@ -536,7 +537,7 @@ header.header.header-flat {
 }
 
 .rn-header.rn-header--withmenu.header-transparent.v-app-bar--is-scrolled {
-    top: 0;
+    // top: 0;
 }
 
 .v-toolbar__content,

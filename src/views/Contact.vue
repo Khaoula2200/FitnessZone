@@ -202,8 +202,8 @@
           },
           {
             icon: "mail",
-            mail: "contact@wedaura.com",
-            to: "mailto:contact@wedaura.com",
+            mail: "contact@FitZone.com",
+            to: "mailto:contact@FitZone.com",
             isMail: true,
           },
         ],

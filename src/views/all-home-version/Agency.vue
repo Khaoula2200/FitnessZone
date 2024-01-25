@@ -4,8 +4,16 @@
       <img class="wa-logo" slot="logo" src="../../assets/images/logo/white.png" />
     </HeaderTwo>
     <SliderTwo />
+    
+    <!-- Start About Area -->
+    <div class="" style="" id="about-us">
+        <About />
+    </div>
+    <!-- End About Area -->
+    
+
     <!-- Start Services Area -->
-    <div class="rn-portfolio-area section-ptb-xl" id="services">
+    <div class="rn-portfolio-area section-ptb-xl" style="padding-top:120px !important;" id="services">
       <v-container>
         <v-row>
           <v-col lg="12">
@@ -48,6 +56,7 @@
   import HeaderTwo from "../../components/header/HeaderTwo";
   import SliderTwo from "../../components/slider/SliderTwo";
   import Services from "../../components/service/Services";
+  import About from "../../components/about/About";
   import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
   import Testimonials from "../../components/testimonials/Testimonials";
   import Footer from "../../components/footer/Footer";
@@ -56,6 +65,7 @@
       HeaderTwo,
       SliderTwo,
       Services,
+      About,
       PortfolioTwo,
       Testimonials,
       Footer,

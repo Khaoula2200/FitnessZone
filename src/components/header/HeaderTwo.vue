@@ -51,11 +51,9 @@
     <v-app-bar
       dark
       color="transparent"
-      fixed
-      elevate-on-scroll
-      class="text-white header rn-header rn-header--withmenu header-transparent header-one-page-nav"
+      class="header-box text-white header rn-header rn-header--withmenu header-transparent header-one-page-nav"
     >
-      <router-link to="/WedAura" class="logo">
+      <router-link to="/FitZone" class="logo">
         <slot name="logo"></slot>
       </router-link>
       <!-- End brand logo -->
@@ -85,13 +83,12 @@
             >{{ item.title }}</v-btn
           >
         </scrollactive>
-        <!--
+        
         <div class="purchase-btn">
-          <a href="/#footer">
+          <a href="/FitZone/contact">
             Contact
           </a>
         </div>
-        -->
       </v-toolbar-items>
       <!-- End header menu item -->
     </v-app-bar>
@@ -104,15 +101,20 @@
     data: () => ({
       drawer: false,
       items: [
-        { title: "Home", to: "/WedAura" },
-        { title: "Services", to: "/WedAura/services" },
-        { title: "Gallery", to: "/WedAura/gallery" },
-        { title: "Testimonials", to: "/WedAura/testimonials" },
-        { title: "Why us", to: "/WedAura/about-us" },
-        { title: "Contact", to: "/WedAura/contact" },
+        { title: "Home", to: "/FitZone" },
+        { title: "Services", to: "/FitZone/services" },
+        { title: "Gallery", to: "/FitZone/gallery" },
+        { title: "Testimonials", to: "/FitZone/testimonials" },
+        { title: "Why us", to: "/FitZone/about-us" },
+        // { title: "Contact", to: "/FitZone/contact" },
       ],
       icon: "menu",
     }),
     methods: {},
   };
 </script>
+<style scoped>
+  .header-box {
+    position: absolute;
+  }
+</style>

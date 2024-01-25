@@ -16,12 +16,14 @@
             <v-col cols="12">
               <div class="content text-center">
                 <h2 class="heading-title">{{ slider.title }}</h2>
-                <p class="description">
+               <!--
+               <p class="description">
                   {{ slider.desc }}
                 </p>
+              -->
                 <div class="slide-btn mt-10">
-                  <router-link class="rf-btn" to="/WedAura/contact"
-                    >Contact Us</router-link
+                  <router-link class="join-us" to="/FitZone/contact"
+                    >Join Us Today</router-link
                   >
                 </div>
               </div>
@@ -43,32 +45,10 @@
       return {
         sliderContent: [
           {
-            src: require("../../assets/images/bg/couple1.jpg"),
-            title: "Unforgettable Weddings",
-            desc: ` Experience the magic of your special day with our dedicated team. We craft unforgettable moments tailored to your unique love story.`,
+            src: require("../../assets/images/bg/man-woman-training.jpg"),
+            title: "Discover Your Strength.",
+            desc: `Join FitZone Today!`,
           },
-          {
-            src: require("../../assets/images/bg/couple3.jpg"),
-            title: "Capturing Timeless Memories",
-            desc: `Our expert photographers specialize in immortalizing the joy and love of your wedding day. Every snapshot tells a story that lasts a lifetime.`,
-          },
-          {
-            src: require("../../assets/images/bg/couple2.jpg"),
-            title: "Elegance Redefined",
-            desc: `Elevate your wedding with a touch of timeless elegance. From venue decor to floral arrangements, we create an atmosphere that reflects your style.`,
-          },
-          // {
-          //   src: require("../../assets/images/bg/couple1.jpg"),
-          //   title: "Development",
-          //   desc: `There are many variations of passages of Lorem Ipsum available 
-          //         but the majority have suffered alteration.`,
-          // },
-          // {
-          //   src: require("../../assets/images/bg/couple1.jpg"),
-          //   title: "Marketing",
-          //   desc: ` There are many variations of passages of Lorem Ipsum available
-          //         but the majority have suffered alteration.`,
-          // },
         ],
         settings: {
           fade: true,
@@ -105,5 +85,53 @@
         font-size: 45px !important;
     }
   }
-  
+  .heading-title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    // color: #f2ad09 !important;
+    width: 100%;
+  }
+  .join-us {
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  letter-spacing: 1px !important;
+  padding: 13px 20px 13px !important;
+  outline: 0 !important;
+  border: 1px solid #fff !important;
+  cursor: pointer !important;
+  position: relative !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  color: #333 !important;
+  font-weight: 700 !important;
+  border-radius: initial !important;
+  text-transform: uppercase;
+}
+
+.join-us:after {
+  content: "";
+  // background-color: #ffe54c;
+  background-color:#f7c324;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.join-us:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .join-us {
+    padding: 13px 50px 13px;
+  }
+}
 </style>
+

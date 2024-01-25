@@ -1,0 +1,3 @@
+main yellow:   #f7c324
+background: gradient FROM #3e3e3e top left  TO #130f0c bottom right
+ 

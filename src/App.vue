@@ -41,6 +41,9 @@
 </script>
 
 <style scoped>
+  body {
+   background-color: #3a3a3a !important; 
+  }
   .scrolltop-wrapper {
     position: fixed;
     right: 30px;

@@ -20,7 +20,7 @@
                   {{ slider.desc }}
                 </p>
                 <div class="slide-btn mt-10">
-                  <router-link class="rf-btn" to="/WedAura/contact"
+                  <router-link class="rf-btn" to="/FitZone/contact"
                     >Contact Us</router-link
                   >
                 </div>

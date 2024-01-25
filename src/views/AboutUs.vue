@@ -13,7 +13,7 @@
             <v-col cols="12">
               <div class="text-center bradcaump_inner">
                 <h2 class="bradcaump-title">
-                  WedAura
+                  FitZone
                 </h2>
                 <p style="font-style: italic;">Where Every Detail Matters</p>
               </div>

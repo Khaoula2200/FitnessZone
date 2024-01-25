@@ -7,55 +7,55 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/WedAura',
+        path: '/FitZone',
         name: 'Agency',
         meta: {
-            title: 'WEDAURA'
+            title: 'FitZone'
         },
         component: () =>
             import ('../views/all-home-version/Agency.vue')
     },
     {
-        path: '/WedAura/services',
+        path: '/FitZone/services',
         name: 'Services',
         meta: {
-            title: 'WEDAURA || Services'
+            title: 'FitZone || Services'
         },
         component: () =>
             import ('../views/Services.vue')
     },
     {
-        path: '/WedAura/testimonials',
+        path: '/FitZone/testimonials',
         name: 'Testimonials',
         meta: {
-            title: 'WEDAURA || Testimonials'
+            title: 'FitZone || Testimonials'
         },
         component: () =>
             import ('../views/Testimonials.vue')
     },
     {
-        path: '/WedAura/gallery',
+        path: '/FitZone/gallery',
         name: 'Gallery',
         meta: {
-            title: 'WEDAURA || Gallery'
+            title: 'FitZone || Gallery'
         },
         component: () =>
             import ('../views/Gallery.vue')
     },
     {
-        path: '/WedAura/contact',
+        path: '/FitZone/contact',
         name: 'Contact',
         meta: {
-            title: 'WEDAURA || Contact'
+            title: 'FitZone || Contact'
         },
         component: () =>
             import ('../views/Contact.vue')
     },
     {
-        path: '/WedAura/about-us',
+        path: '/FitZone/about-us',
         name: 'AboutUs',
         meta: {
-            title: 'WEDAURA || AboutUs'
+            title: 'FitZone || AboutUs'
         },
         component: () =>
             import ('../views/AboutUs.vue')
@@ -64,7 +64,7 @@ const routes = [
         path: '*',
         component: Missing,
         meta: {
-            title: 'WEDAURA || 404'
+            title: 'FitZone || 404'
         },
     }
 ]

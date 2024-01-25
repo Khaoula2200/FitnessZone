@@ -55,7 +55,7 @@
   </div>
   <div class="bottom-details">
     <div class="bottom_text">
-      <span class="copyright_text">Copyright ©{{ new Date().getFullYear() }} <a href="#">WedAura.</a>All rights reserved</span>
+      <span class="copyright_text">Copyright ©{{ new Date().getFullYear() }} <a href="#">FitZone.</a>All rights reserved</span>
       <span class="policy_terms">
         <a href="#">Privacy policy</a>
         <a href="#">Terms & condition</a>
@@ -78,15 +78,15 @@ import Social from "../social/Social";
         companyLinks: [
             {
               title: "Home",
-              to: "/WedAura",
+              to: "/FitZone",
             },
             {
               title: "About us",
-              to: "/WedAura/about-us",
+              to: "/FitZone/about-us",
             },
             {
               title: "Contact Us",
-              to: "/WedAura/contact",
+              to: "/FitZone/contact",
             }
           ],
           servicesList: [
@@ -104,21 +104,21 @@ import Social from "../social/Social";
             },
             {
               title: "See More",
-              to: "/WedAura/services",
+              to: "/FitZone/services",
             }
           ],
            quickLinks: [
             {
               title: "Our Services",
-              to: "/WedAura/services",
+              to: "/FitZone/services",
             },
             {
               title: "Testimonials",
-              to: "/WedAura/testimonials",
+              to: "/FitZone/testimonials",
             },
             {
               title: "Gallery",
-              to: "/WedAura/gallery",
+              to: "/FitZone/gallery",
             }
           ],
         

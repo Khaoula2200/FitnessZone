@@ -44,8 +44,8 @@
           },
           {
             name: "Email Address",
-            desc: "contact@wedaura.com",
-            to: "mailto:contact@wedaura.com",
+            desc: "contact@FitZone.com",
+            to: "mailto:contact@FitZone.com",
           },
           {
             name: "Hot Line",

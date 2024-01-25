@@ -1,11 +1,11 @@
 <template>
   <!-- Footer -->
-  <footer class="-rn-footer" id="footer">
-    <div class="rn-footer-wrapper footer">
+  <footer class="-rn-footer" id="footer" style="padding-top: 90px;">
+    <div class="rn-footer-wrapper footer" style="padding-bottom: 90px;">
       <v-container fluid>
         <v-row>
           <v-col lg="12">
-            <div class="footer-top">
+            <div class="footer-top" style="padding-top: 0;">
               <div class="content">
                 <h4>Contact Us</h4>
               </div>
@@ -13,7 +13,7 @@
           </v-col>
         </v-row>
       </v-container>
-      <div class="footer-wrapper ptb--100">
+      <div class="footer-wrapper ptb--100" >
         <v-container fluid>
           <v-row>
             <!-- Start Single Wedget -->
@@ -34,7 +34,7 @@
                 <div class="content">
                   <div class="address">
                     <p>
-                      <a href="mailto:contact@wedaura.com">contact@wedaura.com</a>
+                      <a href="mailto:contact@FitZone.com">contact@FitZone.com</a>
                     </p>
                     <p><a href="tel:0123344556677">+212 5 37 25 36 21</a></p>
                   </div>
@@ -79,15 +79,15 @@
         quickLink: [
           {
             name: "Services",
-            RouteName: "/WedAura/services",
+            RouteName: "/FitZone/services",
           },
           {
             name: "Gallery",
-            RouteName: "/WedAura/gallery",
+            RouteName: "/FitZone/gallery",
           },
           {
             name: "Testimonials",
-            RouteName: "/WedAura/testimonials",
+            RouteName: "/FitZone/testimonials",
           }
         ],
       };
