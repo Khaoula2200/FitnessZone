@@ -95,24 +95,24 @@
     height: 55px !important;
     background-size: contain !important;
  }
- .icon-1 {
-  background: url('../../assets/svg-icons/photoshoot.svg') no-repeat center center;
- }
- .icon-2 {
-  background: url('../../assets/svg-icons/makeup.svg') no-repeat center center;
- }
- .icon-3 {
-  background: url('../../assets/svg-icons/food.svg') no-repeat center center;
- }
- .icon-4 {
-  background: url('../../assets/svg-icons/music.svg') no-repeat center center;
- }
- .icon-5 {
-  background: url('../../assets/svg-icons/cake.svg') no-repeat center center;
- }
- .icon-6 {
-  background: url('../../assets/svg-icons/honeymoon.svg') no-repeat center center;
- }
+//  .icon-1 {
+//   background: url('../../assets/svg-icons/photoshoot.svg') no-repeat center center;
+//  }
+//  .icon-2 {
+//   background: url('../../assets/svg-icons/makeup.svg') no-repeat center center;
+//  }
+//  .icon-3 {
+//   background: url('../../assets/svg-icons/food.svg') no-repeat center center;
+//  }
+//  .icon-4 {
+//   background: url('../../assets/svg-icons/music.svg') no-repeat center center;
+//  }
+//  .icon-5 {
+//   background: url('../../assets/svg-icons/cake.svg') no-repeat center center;
+//  }
+//  .icon-6 {
+//   background: url('../../assets/svg-icons/honeymoon.svg') no-repeat center center;
+//  }
  .service-description {
   color: #989994;
   text-align: center !important;

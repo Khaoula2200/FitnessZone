@@ -46,6 +46,7 @@
         sliderContent: [
           {
             src: require("../../assets/images/bg/man-woman-training.jpg"),
+            // src: require("../../assets/images/bg/woman-back-flex.jpg"),
             title: "Discover Your Strength.",
             desc: `Join FitZone Today!`,
           },
