@@ -15,12 +15,12 @@
         <Classes />
     </div>
     
-    
+<!--     
      <div class="rn-portfolio-area" id="testimonials">
       <v-container>
         <Testimonials />
       </v-container>
-    </div>
+    </div> -->
     <!-- End reviews Area -->
     <Footer />
   </div>
@@ -34,7 +34,7 @@
   import Statistics from "../../components/statistics/Statistics";
   import Classes from "../../components/classes/Classes";
   // import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
-  import Testimonials from "../../components/testimonials/Testimonials";
+  // import Testimonials from "../../components/testimonials/Testimonials";
   import Footer from "../../components/footer/Footer";
   export default {
     components: {
@@ -45,7 +45,7 @@
       Statistics,
       Classes,
       // PortfolioTwo,
-      Testimonials,
+      // Testimonials,
       Footer,
     },
     data() {

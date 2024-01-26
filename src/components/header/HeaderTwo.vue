@@ -116,5 +116,6 @@
 <style scoped>
   .header-box {
     position: absolute;
+    box-shadow: none !important;
   }
 </style>
