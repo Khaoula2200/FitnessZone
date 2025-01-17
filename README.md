@@ -1,2 +1,0 @@
-# FitnessZone
-A gym website
